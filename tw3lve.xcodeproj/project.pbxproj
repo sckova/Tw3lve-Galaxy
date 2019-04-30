@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDF105A2278F52100BA0C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF10582278F52100BA0C5B /* LaunchScreen.storyboard */; };
+		2CDF105B2278F52100BA0C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF10592278F52100BA0C5B /* Main.storyboard */; };
 		B844BA41225E38D100FEA004 /* libsnappy.c in Sources */ = {isa = PBXBuildFile; fileRef = B844BA3F225E38D100FEA004 /* libsnappy.c */; };
 		B844BA47225E3B4A00FEA004 /* kexecute.c in Sources */ = {isa = PBXBuildFile; fileRef = B844BA45225E3B4A00FEA004 /* kexecute.c */; };
 		B844BA4A225E3E3000FEA004 /* vnode_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B844BA49225E3E3000FEA004 /* vnode_utils.m */; };
@@ -34,9 +36,7 @@
 		B885D03A225F8E5A00E231A4 /* SourceCodeVariable-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B885D039225F8E5A00E231A4 /* SourceCodeVariable-Roman.ttf */; };
 		B8A00F46225A7B55002A6ABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A00F45225A7B55002A6ABF /* AppDelegate.m */; };
 		B8A00F49225A7B55002A6ABF /* Tw3lveView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A00F48225A7B55002A6ABF /* Tw3lveView.m */; };
-		B8A00F4C225A7B55002A6ABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A00F4A225A7B55002A6ABF /* Main.storyboard */; };
 		B8A00F4E225A7B56002A6ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A00F4D225A7B56002A6ABF /* Assets.xcassets */; };
-		B8A00F51225A7B56002A6ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A00F4F225A7B56002A6ABF /* LaunchScreen.storyboard */; };
 		B8A00F54225A7B56002A6ABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A00F53225A7B56002A6ABF /* main.m */; };
 		B8A00F5C225A7C4F002A6ABF /* machswap.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A00F5B225A7C4F002A6ABF /* machswap.m */; };
 		B8A00F64225A7D09002A6ABF /* ms_offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A00F63225A7D09002A6ABF /* ms_offsets.m */; };
@@ -83,6 +83,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CDF10582278F52100BA0C5B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CDF10592278F52100BA0C5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B844BA3F225E38D100FEA004 /* libsnappy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libsnappy.c; sourceTree = "<group>"; };
 		B844BA40225E38D100FEA004 /* libsnappy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libsnappy.h; sourceTree = "<group>"; };
 		B844BA45225E3B4A00FEA004 /* kexecute.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kexecute.c; sourceTree = "<group>"; };
@@ -144,9 +146,7 @@
 		B8A00F45225A7B55002A6ABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B8A00F47225A7B55002A6ABF /* Tw3lveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tw3lveView.h; sourceTree = "<group>"; };
 		B8A00F48225A7B55002A6ABF /* Tw3lveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tw3lveView.m; sourceTree = "<group>"; };
-		B8A00F4B225A7B55002A6ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8A00F4D225A7B56002A6ABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B8A00F50225A7B56002A6ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8A00F52225A7B56002A6ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8A00F53225A7B56002A6ABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8A00F5B225A7C4F002A6ABF /* machswap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = machswap.m; sourceTree = "<group>"; };
@@ -389,11 +389,11 @@
 				B8A00F48225A7B55002A6ABF /* Tw3lveView.m */,
 				B8533BA9226BC29E002F0128 /* Tw3lveSettings.h */,
 				B8533BAA226BC29E002F0128 /* Tw3lveSettings.m */,
-				B8A00F4A225A7B55002A6ABF /* Main.storyboard */,
 				B8A00F4D225A7B56002A6ABF /* Assets.xcassets */,
-				B8A00F4F225A7B56002A6ABF /* LaunchScreen.storyboard */,
 				B8A00F52225A7B56002A6ABF /* Info.plist */,
 				B8A00F53225A7B56002A6ABF /* main.m */,
+				2CDF10582278F52100BA0C5B /* LaunchScreen.storyboard */,
+				2CDF10592278F52100BA0C5B /* Main.storyboard */,
 			);
 			path = tw3lve;
 			sourceTree = "<group>";
@@ -536,7 +536,7 @@
 		B8A00F39225A7B55002A6ABF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Tanay Findley";
 				TargetAttributes = {
 					B8A00F40225A7B55002A6ABF = {
@@ -574,10 +574,10 @@
 				B8CD0765225ED5E900586BE8 /* SF-Pro-Display-BlackItalic.otf in Resources */,
 				B885D03A225F8E5A00E231A4 /* SourceCodeVariable-Roman.ttf in Resources */,
 				B8CD075B225ED5E900586BE8 /* SF-Pro-Display-Semibold.otf in Resources */,
+				2CDF105A2278F52100BA0C5B /* LaunchScreen.storyboard in Resources */,
 				B8CD0767225ED5E900586BE8 /* SF-Pro-Display-Ultralight.otf in Resources */,
 				B8CD0759225ED5E900586BE8 /* SF-Pro-Text-MediumItalic.otf in Resources */,
 				B8CD076D225ED5E900586BE8 /* SF-Pro-Text-Regular.otf in Resources */,
-				B8A00F51225A7B56002A6ABF /* LaunchScreen.storyboard in Resources */,
 				B8CD0766225ED5E900586BE8 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 				B8CD0769225ED5E900586BE8 /* SF-Pro-Display-Heavy.otf in Resources */,
 				B8CD075D225ED5E900586BE8 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
@@ -588,7 +588,7 @@
 				B8A00F4E225A7B56002A6ABF /* Assets.xcassets in Resources */,
 				B8CD0762225ED5E900586BE8 /* SF-Pro-Display-Light.otf in Resources */,
 				B8CD0770225ED5E900586BE8 /* SF-Pro-Display-BoldItalic.otf in Resources */,
-				B8A00F4C225A7B55002A6ABF /* Main.storyboard in Resources */,
+				2CDF105B2278F52100BA0C5B /* Main.storyboard in Resources */,
 				B8CD075F225ED5E900586BE8 /* SF-Pro-Display-Regular.otf in Resources */,
 				B8CD076F225ED5E900586BE8 /* SF-Pro-Text-Semibold.otf in Resources */,
 				B8CD0761225ED5E900586BE8 /* SF-Pro-Display-Black.otf in Resources */,
@@ -653,25 +653,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		B8A00F4A225A7B55002A6ABF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8A00F4B225A7B55002A6ABF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B8A00F4F225A7B56002A6ABF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8A00F50225A7B56002A6ABF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		B8A00F55225A7B56002A6ABF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -724,7 +705,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -777,7 +758,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -788,13 +769,9 @@
 		B8A00F58225A7B56002A6ABF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					arm64,
-					arm64e,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95MPSDK9P6;
+				DEVELOPMENT_TEAM = 8A2552P883;
 				INFOPLIST_FILE = tw3lve/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -807,7 +784,7 @@
 					IOKit,
 					"-w",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = space.tw3lve.tw3lve;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovas.Tw3lve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e";
@@ -817,13 +794,9 @@
 		B8A00F59225A7B56002A6ABF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					arm64,
-					arm64e,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95MPSDK9P6;
+				DEVELOPMENT_TEAM = 8A2552P883;
 				INFOPLIST_FILE = tw3lve/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -836,7 +809,7 @@
 					IOKit,
 					"-w",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = space.tw3lve.tw3lve;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovas.Tw3lve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e";
