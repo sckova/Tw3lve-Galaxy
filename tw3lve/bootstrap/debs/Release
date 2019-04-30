@@ -1,0 +1,8 @@
+Origin: Tw3lveStrap
+Label: Tw3lveStrap
+Suite: stable
+Version: 0.1
+Codename: Tw3lveStrap
+Architectures: iphoneos-arm
+Components: main
+Description: Tw3lve Repo
